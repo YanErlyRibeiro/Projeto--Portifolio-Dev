@@ -1,1 +1,18 @@
-@import url(global.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-asap:"Asap", sans-serif;
+  --font-inconsolata: "Inconsolata", monospace ;
+  --font-maven-pro:"Maven Pro", sans-serif ;
+  --title-lg: 700 56px/120% var(--font-asap);
+  --title-md: 700 24px/120% var(--font-asap);
+  --title-sm: 700 16px/120% var(--font-asap);
+  --subtitle: 400 20px/120% var(--font-inconsolata);
+  --text-md: 400 16px/140% var(--font-maven-pro);
+  --text-sm: 400 14px/140% var(--font-maven-pro);
+
+}
