@@ -1,0 +1,26 @@
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.subtitle {
+  font: var(--subtitle);
+}
+
+.text-md {
+  font: var(--text-md);
+} 
+
+.text-sm {
+ font: var(--text-sm);
+}
+
+

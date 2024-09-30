@@ -26,6 +26,30 @@
   --gray-400: #878EA1;
   --gray-500: #C0C4CE ;
   --gray-600:#E2E4E9;
-  
+}
 
+body {
+  color: var(--gray-600);
+  background-color: var(--gray-200);
+}
+
+a {
+  text-decoration: none;
+  color: var(--gray-500);
+}
+
+h1, h2, h3 {
+  font: var(--font-asap);
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1366px;
+  padding-block: 120px 200px;
+  padding-inline: 120px;
+  margin-inline: auto;
+  
 }
