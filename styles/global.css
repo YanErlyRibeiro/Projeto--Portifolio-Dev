@@ -31,6 +31,7 @@
 body {
   color: var(--gray-600);
   background-color: var(--gray-200);
+  
 }
 
 a {
@@ -48,8 +49,15 @@ img {
 
 .container {
   max-width: 1366px;
-  padding-block: 120px 200px;
-  padding-inline: 120px;
   margin-inline: auto;
-  
+}
+
+main {
+  justify-content: center;
+}
+
+#services {
+  width: 100vw;
+  background-color: var(--gray-100) ;
+  padding: 88px 120px 120px;
 }

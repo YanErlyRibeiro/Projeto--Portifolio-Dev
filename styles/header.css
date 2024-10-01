@@ -1,7 +1,9 @@
 header {
-  margin-bottom: 57px;
-}
+  padding-block:120px 57px;
+  background-image: url(../assets/images/Into.png);
+  background-size: cover;
 
+}
 nav {
   place-items: center;
   text-align: center;
@@ -27,7 +29,7 @@ nav {
     }
   }
 
-  .content {
+  .appearence {
     margin-block: 58px 80px;
     margin-inline: 180px;
   }

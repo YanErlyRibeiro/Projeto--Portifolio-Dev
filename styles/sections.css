@@ -1,0 +1,38 @@
+
+#projects {
+  padding-block:72px 144px ;
+ 
+   div:nth-child(1) {
+   text-align: center;
+  }
+
+  strong {
+    color: var(--red);
+    margin-bottom: 8px; 
+    
+  }
+  h3 {
+    color: var(--gray-600);
+  }
+
+#content {
+  margin-top: 56px;
+}
+
+  .card {
+    max-width: 330px;
+    padding: 12px;
+    background-color: var(--gray-300);
+    border-radius: 12px;
+
+    h3 {
+      color: var(--gray-600);
+      margin-block: 24px 8px;
+    }
+
+    p {
+      color: var(--gray-500) ;
+    }
+  }
+}
+
