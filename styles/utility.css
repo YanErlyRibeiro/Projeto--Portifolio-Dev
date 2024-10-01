@@ -15,6 +15,10 @@
   font: var(--subtitle);
 }
 
+.text {
+  font: var(--text);
+}
+
 .text-md {
   font: var(--text-md);
 } 
@@ -33,6 +37,10 @@
 
 .gap-24 {
   gap: 24px;
+}
+
+.gap-48 {
+  gap: 48px;
 }
 .gap-56 {
  gap: 56px;

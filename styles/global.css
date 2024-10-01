@@ -12,6 +12,7 @@
   --title-md: 700 24px/120% var(--font-asap);
   --title-sm: 700 16px/120% var(--font-asap);
   --subtitle: 400 20px/120% var(--font-inconsolata);
+  --text: 500 16px/140% var(--font-maven-pro);
   --text-md: 400 16px/140% var(--font-maven-pro);
   --text-sm: 400 14px/140% var(--font-maven-pro);
 
@@ -56,7 +57,7 @@ main {
   justify-content: center;
 }
 
-section {
+section, footer {
 
   strong {
     color: var(--red);
