@@ -2,7 +2,7 @@ header {
   padding-block:120px 57px;
   background-image: url(../assets/images/Into.png);
   background-size: cover;
-
+  background-position: center;
 }
 nav {
   place-items: center;
